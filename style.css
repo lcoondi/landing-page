@@ -1,3 +1,5 @@
+
+
 header,footer {
     display: flex;
     background-color: #1F2937;
@@ -42,24 +44,28 @@ main {
     color: #E5E7EB;
     font-size: 18px;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
-    
-        
+    justify-content: space-around;
+    padding: 50px 200px 50px 200px;
+    gap: 60px;
 }
 
-.main-text {
+h2 {
     font-size: 48px;
     font-weight: 700;
     color: #F9FAF8;
 }
 
 .shepherd {
-    width: 300px;
+    width: 400px;
     height: auto;
-    
-    
-    
+}
+
+.button-one {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(32, 139, 238);
+    color: white;
+    padding: 6px 18px;
 }
 
 
