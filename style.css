@@ -95,9 +95,9 @@ h2 {
 }
 
 .poetry {
-    padding: 20px 250px 50px 250px;
+    padding: 20px 300px 50px 300px;
     background-color: rgb(228, 225, 225);
-    text-align: center;
+    text-align: stretch;
 
 }
 
@@ -112,8 +112,8 @@ h2 {
 .wrapper {
     display: flex;
     background-color: rgb(32, 139, 238);
-    margin: 50px 250px 50px 250px;
-    padding: 20px;
+    margin: 40px 200px 40px 200px;
+    padding: 10px;
     border-radius: 6px;
     gap: 100px;
     
@@ -139,6 +139,7 @@ h2 {
     display: flex;
     align-items: center;
     padding: 2px 18px;
+    margin: 20px;
     border-width: 2px;
     border-radius: 4px;
     border-color: white;
