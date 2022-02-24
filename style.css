@@ -105,10 +105,17 @@ h2 {
 .action {
     display: flex;
     justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper {
+    display: flex;
     background-color: rgb(32, 139, 238);
     margin: 50px 250px 50px 250px;
     padding: 20px;
     border-radius: 6px;
+    gap: 100px;
     
     
 }
@@ -116,12 +123,20 @@ h2 {
 
 
 .call {
-    align-items: center;
-    
+    flex-direction: column;
+    color: white
     
 }
 
+.call-bold {
+    font-size: 24px;
+    font-weight:bold
+}
+
+
+
 .button-two {
+    display: flex;
     align-items: center;
     padding: 2px 18px;
     border-width: 2px;
@@ -129,9 +144,6 @@ h2 {
     border-color: white;
     color: white;
     background-color: rgb(32, 139, 238);
-    
-    
-  
 }
 
 footer {
